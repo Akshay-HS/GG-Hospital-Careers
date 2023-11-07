@@ -106,8 +106,7 @@ body {
   padding-bottom: 50px;
   box-shadow: 1px 10px 10px 3px rgb(211, 211, 211);
 }
-#form-button
-{
+#form-button {
   width: 30%;
 }
 
@@ -391,114 +390,96 @@ button {
 #hr {
   width: 51%;
 }
-#foot
-{
+#foot {
   background-color: white;
 }
-#up-foot
-{
-display: flex;
-justify-content: space-evenly;
-margin-top: 20px;
+#up-foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
-#up1
-{
+#up1 {
   font-size: small;
 }
-#up-img
-{
+#up-img {
   width: 200px;
-
 }
-#up2-grid
-{
+#up2-grid {
   display: grid;
   grid-template-columns: auto auto;
   font-size: smaller;
 }
-#up2-h
-{
+#up2-h {
   margin-left: 17px;
 }
-.up2-class
-{
+.up2-class {
   padding: 15px;
   padding-top: 0%;
 }
 
-#up3-grid{
+#up3-grid {
   display: grid;
   grid-template-columns: auto auto;
 }
- 
-.up3-class{
+
+.up3-class {
   padding: 15px;
   padding-top: 0px;
   font-size: smaller;
 }
- 
-#up3-h{
+
+#up3-h {
   margin-left: 18px;
 }
-#foot-line{
+#foot-line {
   position: relative;
   z-index: 30;
   margin-top: -10px;
 }
- 
-#foot-hr{
+
+#foot-hr {
   width: 85%;
 }
-#down-foot
-{
+#down-foot {
   display: flex;
   margin-left: 100px;
   margin-top: 30px;
   font-size: x-small;
-
 }
-#df-1
-{
+#df-1 {
   padding-right: 10px;
   display: flex;
 }
-#df1-p
-{
+#df1-p {
   margin-top: -4px;
   padding-left: 20px;
 }
-#df-2
-{
+#df-2 {
   display: flex;
   padding-left: 100px;
 }
-#df2-p
-{
+#df2-p {
   margin-top: -4px;
   padding-left: 20px;
 }
-#df-3
-{
+#df-3 {
   display: flex;
   padding-left: 100px;
 }
-#df3-p
-{
+#df3-p {
   margin-top: -4px;
   padding-left: 20px;
 }
-#df-4
-{
+#df-4 {
   margin-left: 70px;
   margin-top: -4px;
 }
-#df4-h
-{
+#df4-h {
   margin-top: 3px;
 }
-#df4-icon
-{
+#df4-icon {
   font-size: medium;
   margin-top: 10px;
-  padding-left: 20PX;
+  padding-left: 20px;
 }
+

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="career.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="form.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -53,20 +54,69 @@
         </ul>
       </nav>
     </div>
-    <div class="career-info-container">
-      <div class="career-text">
-        <p>Career</p>
+    <div class="editbody">
+      <div class="edithead">
+        <h1>Edit now</h1>
       </div>
-      <div class="career-paragraph">
-        <p>
-          In the medical arena, our success is ultimately based on the
-          <br />medically indicated quality diagnostic practices that have
-          <br />remained true to the ethical principles of the medical <br />
-          profession.
-        </p>
+      <div class="formclass">
+        <form class="grid-form">
+          <div class="grid-form-row">
+            <div class="grid-form-col">
+              <input
+                type="text"
+                id="full_name"
+                name="full_name"
+                placeholder="Full Name *"
+                required
+              />
+            </div>
+            <div class="grid-form-col">
+              <input
+                type="tel"
+                id="phone_number"
+                name="phone_number"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+          <div class="grid-form-row">
+            <div class="grid-form-col">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Id *"
+                required
+              />
+            </div>
+            <div class="grid-form-col">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+            </div>
+          </div>
+          <div class="grid-form-row">
+            <div class="grid-form-col" style="grid-column: span 2">
+              <textarea
+                id="cover_letter"
+                name="cover_letter"
+                placeholder="Cover Letter"
+                rows="4"
+              ></textarea>
+            </div>
+          </div>
+          <div class="grid-form-row">
+            <div class="grid-form-col" style="grid-column: span 2">
+              <button type="button">Submit Application</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-    <div id="userDetails"></div>
+
     <footer id="foot">
       <div id="up-foot">
         <div id="up1">
@@ -136,6 +186,4 @@
       </div>
     </footer>
   </body>
-  <script src="js/get.js"></script>
-  <script src="js/main.js"></script>
 </html>

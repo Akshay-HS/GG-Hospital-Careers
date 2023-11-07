@@ -1,0 +1,62 @@
+.editbody {
+  height: 600px;
+}
+.editbody {
+  width: 100%;
+  font-size: xx-large;
+  padding-left: 60px;
+}
+.editbody h {
+  width: 200px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style form rows and columns */
+.grid-form-row {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for labels */
+  gap: 10px;
+}
+
+.grid-form-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjust input and textarea width */
+.grid-form-col input,
+.grid-form-col textarea {
+  width: 100%;
+}
+
+/* Style the button */
+button {
+  background-color: rgb(23, 193, 163);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px; /* Round edges */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a5;
+}
+
+/* Position the left and right elements */
+.grid-form-row .grid-form-col:nth-child(odd) {
+  justify-self: end; /* Right position for odd columns (labels) */
+}
+
+.grid-form-row .grid-form-col:nth-child(even) {
+  justify-self: start; /* Left position for even columns (input fields) */
+}

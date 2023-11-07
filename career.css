@@ -172,3 +172,23 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
+.career-info-container {
+  display: flex;
+  height: 200px;
+}
+.career-text {
+  font-size: 70px;
+  margin-left: 60px;
+  padding: 0;
+}
+.career-text p {
+  padding: 0;
+}
+.career-paragraph {
+  text-align: left;
+  margin-left: 380px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-top: 40px;
+}
