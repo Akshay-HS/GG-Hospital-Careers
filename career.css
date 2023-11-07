@@ -1,0 +1,132 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+#header-icon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+}
+#img-gg {
+  width: 120px;
+  height: 50px;
+  margin-top: 17px;
+}
+#nav {
+  margin-left: 50px;
+  display: flex;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+#home-nav {
+  color: red;
+}
+.navbar a:hover {
+  background-color: rgb(231, 229, 229); /* Hover background color */
+}
+#foot {
+  background-color: white;
+}
+#up-foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#up1 {
+  font-size: small;
+}
+#up-img {
+  width: 200px;
+}
+#up2-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: smaller;
+}
+#up2-h {
+  margin-left: 17px;
+}
+.up2-class {
+  padding: 15px;
+  padding-top: 0%;
+}
+
+#up3-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.up3-class {
+  padding: 15px;
+  padding-top: 0px;
+  font-size: smaller;
+}
+
+#up3-h {
+  margin-left: 18px;
+}
+#foot-line {
+  position: relative;
+  z-index: 30;
+  margin-top: -10px;
+}
+
+#foot-hr {
+  width: 85%;
+}
+#down-foot {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: x-small;
+}
+#df-1 {
+  padding-right: 10px;
+  display: flex;
+}
+#df1-p {
+  margin-top: -4px;
+  padding-left: 20px;
+}
+#df-2 {
+  display: flex;
+  padding-left: 100px;
+}
+#df2-p {
+  margin-top: -4px;
+  padding-left: 20px;
+}
+#df-3 {
+  display: flex;
+  padding-left: 100px;
+}
+#df3-p {
+  margin-top: -4px;
+  padding-left: 20px;
+}
+#df-4 {
+  margin-left: 70px;
+  margin-top: -4px;
+}
+#df4-h {
+  margin-top: 3px;
+}
+#df4-icon {
+  font-size: medium;
+  margin-top: 10px;
+  padding-left: 20px;
+}
