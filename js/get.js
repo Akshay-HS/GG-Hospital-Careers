@@ -19,7 +19,9 @@ async function fetchAndDisplayUsers() {
                   <p>Email: ${user.email}</p>
                   <p>Phone: ${user.phone}</p>
                   </div>
-                 <div class="user-edit-button"> <button class="edit-button">Edit Now</button> </div>
+                  <div class="user-edit-button">
+                  <a href="editnow.html" class="edit-button">Edit Now</a>
+                </div>                
               </div>
           `
       )
