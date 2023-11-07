@@ -15,21 +15,20 @@
 .grid-form {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2 columns */
-  gap: 10px;
+  gap: 15px;
   max-width: 600px;
   margin: 0 auto;
+  margin-left: 5px;
 }
 
 /* Style form rows and columns */
 .grid-form-row {
-  display: grid;
   grid-template-columns: 1fr; /* Single column for labels */
   gap: 10px;
 }
 
 .grid-form-col {
   display: flex;
-  flex-direction: column;
 }
 
 /* Adjust input and textarea width */
